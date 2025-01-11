@@ -25,7 +25,5 @@ Une application simple de messagerie permettant d'envoyer et d'afficher des mess
 
 ## Améliorations futures
 - Ajouter une fonctionnalité pour supprimer des messages.
-- Permettre la personnalisation des styles de message (choix des couleurs, des bordures, etc.).
 - Enregistrer les messages dans le stockage local pour une conservation persistante.
-
 ---
