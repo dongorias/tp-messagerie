@@ -1,0 +1,49 @@
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.affichage {
+    height: 200px;
+    width: 50px;
+    min-width: 400px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: auto; /* Ajoute des barres de défilement si le contenu déborde */
+
+}
+
+.texte{
+    border-radius: 10px; /* Coins arrondis avec un rayon de 10 pixels */
+    padding: 10px; /* Espace entre le contenu et la bordure : 10 pixels */
+    margin: 2px; /* Espace entre l'élément et ses voisins : 2 pixels */
+}
+.droite{
+    border: 1px solid #00FF00; /* Bordure de 1px, style plein, couleur vert clair */
+    background-color: #AAFFAA; /* Couleur d'arrière-plan : vert plus clair */
+    margin-left: 100px; /* Marge gauche : 100 pixels */
+}
+
+.gauche {
+    border: 1px solid #0000FF; /* Bordure de 1px, style plein, couleur bleu */
+    background-color: #AAAaff; /* Couleur d'arrière-plan : bleu clair */
+    margin-right: 100px; /* Marge droite : 100 pixels */
+}
+
+/*#clavier {
+    resize: vertical;
+    overflow: auto;
+    width: 50%;
+    min-width: 400px;
+}*/
+
+button, h1 {
+    margin: 10px auto; /* 10 pixels en haut et en bas, alignement centré (auto) à gauche et à droite */
+    display: block; /* Nécessaire pour appliquer `margin: auto` */
+}
+
+body {
+    font-family: monospace; /* Applique une police monospace à tout le document */
+}
